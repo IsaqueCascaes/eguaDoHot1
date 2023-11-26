@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    list-style: none;
+    padding: 2rem;
+    background-color: #ff003d;
+    color: white;
+
+}
+
+.logo-menu {
+    padding-right: 6rem;
+}
+
+.logo-menu img {
+    width: 13%;
+    height: 2%;
+    border-radius: 100px;
+}
+
+ul li {
+    transition: 0.3s;
+    transform: scale(1.0);
+}
+
+ul li:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.anuncio-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://wallpaperaccess.com/full/350720.jpg);
+    background-size: cover;
+    height: 40rem;
+}
+
+.frase-anuncio {
+    padding: 2rem;
+    font-size: 22px;
+    width: 40%;
+    color: white;
+}
+
+.bloco-cardapio, .bloco-cliente {
+    padding: 4rem;
+}
+
+.titulo-cardapio, .titulo-cliente {
+    font-size: 40px;
+    text-align: center;
+}
+
+.categoria-cardapio {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25rem;
+    background-color: #bf4d28;
+    text-align: center;
+}
+
+.item-cardapio-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://bhaz.com.br/wp-content/uploads/2022/09/cachorro-quente.jpg);
+    background-size: cover;
+    height: 80%;
+    width: 30%;
+    margin: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    transition: 0.5s;
+    transform: scale(1.0);
+}
+
+.item-cardapio-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s1.best-wallpaper.net/wallpaper/m/1803/Hamburger-ketchup-french-fries_m.webp);
+    background-size: cover;
+    height: 80%;
+    width: 30%;
+    margin: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    transition: 0.5s;
+    transform: scale(1.0);
+}
+
+.item-cardapio-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s2.glbimg.com/GUda5oj9xkd_yQNyn36mDn9XJmo=/620x455/e.glbimg.com/og/ed/f/original/2018/08/17/beber-refrigerante-todos-os-dias-esta-te-matando.jpg);
+    background-size: cover;
+    height: 80%;
+    width: 30%;
+    margin: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    transition: 0.5s;
+    transform: scale(1.0);
+}
+
+.item-cardapio-1:hover,
+.item-cardapio-2:hover,
+.item-cardapio-3:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.anuncio-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQzeSfPxIa9IyJf4TapKrHyPuSP9RwbtEdZQ&usqp=CAU);
+    background-size: cover;
+    height: 40rem;
+}
+
+.clientes {
+    display: flex;
+    height: 25rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nossos-clientes {
+    height: 20rem;
+ box-shadow: rgb(99, 93, 93) 3px 3px 3px 3px;
+    width: 40%;
+    border: 0.5px solid;
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: scale(1.0);
+}
+
+.nossos-clientes:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.comentario {
+    padding: 2rem;
+}
+
+.imagem-cliente {
+    width: 18%;
+    height: 30%;
+    border-radius:250px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #bf4d28;
+}
+
+footer p {
+    padding: 0.5rem;
+}
+
+.copy{
+    font-size: 10px;
+    padding-top: 2rem;
+}
